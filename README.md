@@ -1,2 +1,2 @@
-# StoryGame_Gw1
-졸업 작품
+# StroyGame
+스토리 게임 템플릿
