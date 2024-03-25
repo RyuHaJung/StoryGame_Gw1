@@ -9,24 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 042c3ccec534cf041999cc115346a844, type: 3}
+  m_Script: {fileID: 11500000, guid: baf065dbfbe27454fb43a687a0ebf563, type: 3}
   m_Name: Story_001
   m_EditorClassIdentifier: 
-  storyNumber: 1
-  storyDone: 0
-  storyText: "\uAC04\uB2E8 \uC774\uBCA4\uD2B8 \uD14C\uC2A4\uD2B8"
-  options:
-  - optionText: "\uC774\uB3D9\uD55C\uB2E4"
-    buttonText: "\uC774\uB3D9\uD55C\uB2E4"
-    effects:
-    - effectType: 0
-      value: 1
-    - effectType: 5
-      value: 3
-  - optionText: "\uB3C4\uB9DD\uAC04\uB2E4"
-    buttonText: "\uB3C4\uB9DD\uAC04\uB2E4"
-    effects:
-    - effectType: 0
-      value: -1
-    - effectType: 5
-      value: 2
+  statsData:
+    hpPoint: 0
+    spPoint: 0
+    currentHpPoint: 0
+    currentSpPoint: 0
+    currentXpPoint: 0
+    strength: 0
+    dexterity: 0
+    consitiution: 0
+    Intelligence: 0
+    wisdom: 0
+    charisma: 0
