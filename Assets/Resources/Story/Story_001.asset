@@ -13,51 +13,20 @@ MonoBehaviour:
   m_Name: Story_001
   m_EditorClassIdentifier: 
   storyNumber: 1
-  storytype: 0
   storyDone: 0
-  storyText: "\uC5B4\uB290 \uB178\uC778\uC774 \uB2E4\uAC00\uC640 \uB2F9\uC2E0\uC758
-    \uC190\uC744 \uC7A1\uACE0 \uB2F9\uC2E0\uC5D0\uAC8C \uBD80\uD0C1\uC774 \uC788\uB2E4\uACE0
-    \uD55C\uB2E4."
+  storyText: "\uAC04\uB2E8 \uC774\uBCA4\uD2B8 \uD14C\uC2A4\uD2B8"
   options:
-  - optionText: "\uC774\uC57C\uAE30\uB97C \uB4E4\uC5B4\uBCF8\uB2E4"
-    buttonText: "\uC774\uC57C\uAE30\uB97C \uB4E4\uC5B4\uBCF8\uB2E4"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 2
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
+  - optionText: "\uC774\uB3D9\uD55C\uB2E4"
+    buttonText: "\uC774\uB3D9\uD55C\uB2E4"
+    effects:
+    - effectType: 0
+      value: 1
+    - effectType: 5
+      value: 3
   - optionText: "\uB3C4\uB9DD\uAC04\uB2E4"
-    buttonText: "\uC190\uC744 \uBFCC\uB9AC\uCE58\uACE0 \uB3C4\uB9DD\uAC04\uB2E4"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 3
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
+    buttonText: "\uB3C4\uB9DD\uAC04\uB2E4"
+    effects:
+    - effectType: 0
+      value: -1
+    - effectType: 5
+      value: 2
