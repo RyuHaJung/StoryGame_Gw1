@@ -13,20 +13,56 @@ MonoBehaviour:
   m_Name: Story_002
   m_EditorClassIdentifier: 
   storyNumber: 2
+  storytype: 0
   storyDone: 0
-  storyText: "\uAC04\uB2E8 \uC774\uBCA4\uD2B8 \uD14C\uC2A4\uD2B8"
+  storyText: "\uB2F9\uC2E0\uC740 \uCC9C\uCC9C\uD788 \uBC1C \uBC11\uC744 \uB0B4\uB824\uBD24\uB2E4.
+    \uC544\uBB34\uAC83\uB3C4 \uC548\uBCF4\uC5EC\uC11C \uC548\uC2EC\uD558\uB358 \uADF8
+    \uB54C \uAF48\uC545 \uB450 \uC190\uC774 \uD280\uC5B4\uB098\uC640 \uB2F9\uC2E0\uC758
+    \uC591 \uBC1C\uBAA9\uC744 \uBD99\uC7A1\uACE0 \uBA38\uB9AC\uB97C \uCC9C\uCC9C\uD788
+    \uB0B4\uBC00\uC5C8\uB2E4 \uC774\uB0B4 \uB2AA\uADC0\uC2E0\uC774 \uBA38\uB9AC\uC5D0
+    \uC9C4\uD759\uC744 \uB4A4\uC9D1\uC740 \uCC44\uB85C \uB4F1\uC7A5\uD588\uB2E4.         
+    \uC804\uD22C(\uC544\uC9C1 \uC804\uD22C\uAC00 \uC5C6\uC5B4 \uC120\uD0DD\uC9C0\uB85C
+    \uB300\uCCB4) "
   options:
-  - optionText: "\uC774\uB3D9\uD55C\uB2E4"
-    buttonText: 
-    effects:
-    - effectType: 0
-      value: 1
-    - effectType: 2
-      value: 1
-  - optionText: "\uB3C4\uB9DD\uAC04\uB2E4"
-    buttonText: 
-    effects:
-    - effectType: 0
-      value: -1
-    - effectType: 0
-      value: 3
+  - optionText: "\uC2B9\uB9AC"
+    buttonText: "\uC2B9\uB9AC"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 3
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []
+  - optionText: "\uD328\uBC30"
+    buttonText: "\uD328\uBC30"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 4
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []

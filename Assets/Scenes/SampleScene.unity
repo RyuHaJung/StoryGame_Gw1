@@ -1097,17 +1097,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70af318a9315e8340ae5c5dfa0456771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hpPoint: 0
-  spPoint: 0
-  currentHpPoint: 0
-  currentSpPoint: 0
-  currentXpPoint: 0
-  strength: 0
-  dexterity: 0
-  consitiution: 0
-  Intelligence: 0
-  wisdom: 0
-  charisma: 0
+  stats:
+    hpPoint: 0
+    spPoint: 0
+    currentHpPoint: 0
+    currentSpPoint: 0
+    currentXpPoint: 0
+    strength: 0
+    dexterity: 0
+    consitiution: 0
+    Intelligence: 0
+    wisdom: 0
+    charisma: 0
   currentState: 0
   storyModels:
   - {fileID: 11400000, guid: 146deee9f7a063e4dbbc6af6f0491d64, type: 2}
@@ -1949,7 +1950,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 244, y: -342}
+  m_AnchoredPosition: {x: 136, y: -342}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &928721805
@@ -2205,7 +2206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 802, y: -342}
+  m_AnchoredPosition: {x: 694, y: -342}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1192923898
@@ -2731,7 +2732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 244, y: -456}
+  m_AnchoredPosition: {x: 136, y: -456}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507277743
