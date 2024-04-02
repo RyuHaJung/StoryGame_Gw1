@@ -15,44 +15,26 @@ MonoBehaviour:
   storyNumber: 2
   storytype: 0
   storyDone: 0
-  storyText: "\uB2F9\uC2E0\uC740 \uCC9C\uCC9C\uD788 \uBC1C \uBC11\uC744 \uB0B4\uB824\uBD24\uB2E4.
-    \uC544\uBB34\uAC83\uB3C4 \uC548\uBCF4\uC5EC\uC11C \uC548\uC2EC\uD558\uB358 \uADF8
-    \uB54C \uAF48\uC545 \uB450 \uC190\uC774 \uD280\uC5B4\uB098\uC640 \uB2F9\uC2E0\uC758
-    \uC591 \uBC1C\uBAA9\uC744 \uBD99\uC7A1\uACE0 \uBA38\uB9AC\uB97C \uCC9C\uCC9C\uD788
-    \uB0B4\uBC00\uC5C8\uB2E4 \uC774\uB0B4 \uB2AA\uADC0\uC2E0\uC774 \uBA38\uB9AC\uC5D0
-    \uC9C4\uD759\uC744 \uB4A4\uC9D1\uC740 \uCC44\uB85C \uB4F1\uC7A5\uD588\uB2E4.         
-    \uC804\uD22C(\uC544\uC9C1 \uC804\uD22C\uAC00 \uC5C6\uC5B4 \uC120\uD0DD\uC9C0\uB85C
-    \uB300\uCCB4) "
+  storyText: "\uCE5C\uAD6C\uC640 \uD5E4\uC5B4\uC84C\uB358 \uC9C0\uC810\uC744 \uD5A5\uD574
+    \uC0B0\uC744 \uC624\uB978 \uB2F9\uC2E0\uC740 \uB9C8\uCE68\uB0B4 \uCE5C\uAD6C\uC640
+    \uD5E4\uC5B4\uC9C4 \uC7A5\uC18C\uC5D0 \uB3C4\uCC29\uD588\uACE0  \uADF8\uACF3\uC5D0\uC11C
+    \uD55C \uACF3\uC73C\uB85C \uC774\uC5B4\uC9C4 \uCE5C\uAD6C\uC758 \uBC1C\uC790\uAD6D\uC744
+    \uBC1C\uACAC\uD588\uB2E4. \uB2F9\uC2E0\uC740 \uCE5C\uAD6C\uC758 \uBC1C\uC790\uAD6D\uC744
+    \uB530\uB77C \uB545\uC73C\uB85C \uBCF4\uBA70 \uAC77\uB358 \uC911 \uCE5C\uAD6C\uC758
+    \uBC1C\uC790\uAD6D\uC774 \uB04A\uACA8 \uACE0\uAC1C\uB97C \uB4E4\uC5B4\uBCF4\uB2C8
+    \uB2F9\uC2E0\uC758 \uC55E\uC5D0\uB294 \uC5B4\uB5A4 \uD3EC\uD0C8\uC774 \uC788\uC5C8\uB2E4.
+    \uADF8 \uD3EC\uD0C8\uC740 \uB098\uBB34 \uC0AC\uC774\uC5D0\uC11C \uC788\uC5C8\uC73C\uBA70
+    \uC548\uC5D0\uB294 \uC628\uD1B5 \uBD89\uC740 \uBE5B\uC774 \uB3C4\uB294 \uC138\uC0C1\uC774
+    \uC874\uC7AC\uD588\uB2E4 "
   options:
-  - optionText: "\uC2B9\uB9AC"
-    buttonText: "\uC2B9\uB9AC"
+  - optionText: "\uB4E4\uC5B4\uAC04\uB2E4"
+    buttonText: "\uB4E4\uC5B4\uAC04\uB2E4"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
       - resultType: 4
         value: 3
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
-  - optionText: "\uD328\uBC30"
-    buttonText: "\uD328\uBC30"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 4
         stats:
           hpPoint: 0
           spPoint: 0

@@ -15,8 +15,9 @@ MonoBehaviour:
   storyNumber: 9
   storytype: 0
   storyDone: 0
-  storyText: "\uB2AA\uADC0\uC2E0\uC740 \uBB34\uCC99\uC774\uB098 \uAD34\uB85C\uC6CC\uD558\uBA70
-    \uB2AA\uC18D\uC73C\uB85C \uB2E4\uC2DC \uC0AC\uB77C\uC84C\uB2E4."
+  storyText: "\uB2F9\uC2E0\uC740 \uC788\uB294 \uD798\uC744 \uB2E4\uD574 \uC9C4\uD759
+    \uC704\uB97C \uB2EC\uB838\uACE0 \uC624\uC2F9\uD55C \uB2AA\uC9C0\uC5D0\uC11C \uB3C4\uB9DD\uCE60
+    \uC218 \uC788\uC5C8\uB2E4."
   options:
   - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
@@ -25,7 +26,7 @@ MonoBehaviour:
       eventType: 0
       sucessResult:
       - resultType: 4
-        value: 20
+        value: 16
         stats:
           hpPoint: 0
           spPoint: 0

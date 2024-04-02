@@ -15,64 +15,33 @@ MonoBehaviour:
   storyNumber: 1
   storytype: 0
   storyDone: 0
-  storyText: "\uC9C8\uCC99\uC774\uB294 \uC9C4\uD759\uC774 \uAC00\uB4DD\uD55C \uB2AA\uC9C0\uB97C
-    \uAC77\uB358 \uB2F9\uC2E0\uC740 \uC798 \uB5A8\uC5B4\uC9C0\uC9C0 \uC54A\uC740
-    \uBC1C\uC744 \uC62E\uAE30\uACE0 \uC788\uC5C8\uB2E4 \uB2EC\uB3C4 \uAD6C\uB984\uC5D0
-    \uAC00\uB824\uC838 \uD55C \uCE58 \uC55E\uB3C4 \uBCF4\uC774\uC9C0 \uC54A\uC544
-    \uAE38\uC744 \uCC3E\uAE30 \uD798\uB4E4\uC5C8\uB2E4. \uADF8 \uB54C \uB2F9\uC2E0\uC740
-    \uB2AA\uC9C0 \uBC11\uC5D0\uC11C \uBB54\uAC00 \uB2F9\uC2E0\uC758 \uBC1C\uBAA9\uC744
-    \uC2A4\uCCE4\uB2E4 "
+  storyText: "\uB2EC\uC740 \uB5B4\uC73C\uB098 \uB2EC\uBE5B\uC774 \uBC1D\uC9C0 \uC54A\uACE0
+    \uACF5\uAE30\uC870\uCC28 \uBB34\uAC81\uAC8C \uAC00\uB77C\uC549\uC740 \uC5B4\uB290
+    \uACE0\uC694\uD55C \uBC24 \uB2F9\uC2E0\uC740 \uCE5C\uAD6C\uC758 \uC81C\uC548\uC73C\uB85C
+    \uACF5\uD3EC\uCCB4\uD5D8\uC744 \uD558\uB7EC \uADC0\uC2E0\uC774 \uC790\uC8FC \uCD9C\uBAB0\uD55C\uB2E4\uACE0
+    \uD558\uB294 \uADC0\uC2E0\uC0B0\uC744 \uC624\uB974\uAC8C \uB418\uC5C8\uB2E4.
+    \uB2F9\uC2E0\uC740 \uBB34\uC11C\uC6C0\uC744 \uCC38\uC73C\uBA70 \uC55E\uC73C\uB85C
+    \uB098\uC544\uAC14\uC9C0\uB9CC \uACC4\uC18D \uC5B4\uB514\uC120\uAC00 \uB290\uAEF4\uC9C0\uB294
+    \uC2DC\uC120\uC5D0 \uC18C\uB984\uC774 \uB3CB\uAE30 \uC2DC\uC791\uD588\uB2E4.
+    \uC774\uB0B4 \uBB3C\uAE30 \uC5B4\uB9B0 \uC11C\uB298\uD55C \uBC14\uB78C\uC774
+    \uBAA9\uB4A4\uB97C \uC2A4\uCE58\uC790 \uB450\uB824\uC6C0\uC744 \uCC38\uC9C0 \uBABB\uD55C
+    \uB2F9\uC2E0\uC740 \uCE5C\uAD6C\uC5D0\uAC8C \uC0B0\uC744 \uB0B4\uB824\uAC00\uC790\uACE0
+    \uD588\uB2E4. \u201C\uBB34\uC11C\uC6B0\uBA74 \uB0B4\uB824\uAC00 \uC788\uC5B4,
+    \uC870\uAE08\uB9CC \uB354 \uB458\uB7EC\uBCF4\uACE0 \uAC08\uAC8C\u201D \uB2F9\uC2E0\uC740
+    \uC0B0 \uBC11\uC5D0\uC11C \uCE5C\uAD6C\uB97C \uAE30\uB2E4\uB838\uC9C0\uB9CC \uAE34
+    \uC2DC\uAC04\uC774 \uC9C0\uB098\uB3C4 \uCE5C\uAD6C\uB294 \uB0B4\uB824\uC624\uC9C0
+    \uC54A\uC558\uB2E4. \uCE5C\uAD6C\uAC00 \uAC71\uC815\uB41C \uB2F9\uC2E0\uC740
+    \uBB34\uC11C\uC6C0\uC744 \uBB34\uB985\uC4F0\uACE0 \uCE5C\uAD6C\uB97C \uCC3E\uAE30
+    \uC704\uD574 \uB2E4\uC2DC \uC0B0\uC744 \uC62C\uB790\uB2E4. "
   options:
-  - optionText: "\uBC1C \uBC11\uC744 \uBCF8\uB2E4"
-    buttonText: "\uBC1C \uBC11\uC744 \uBCF8\uB2E4"
+  - optionText: "\uBAA8\uD5D8 \uC2DC\uC791"
+    buttonText: "\uBAA8\uD5D8 \uC2DC\uC791"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
       - resultType: 4
         value: 2
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
-  - optionText: "\uB3C4\uB9DD\uCE5C\uB2E4"
-    buttonText: "\uB3C4\uB9DD\uCE5C\uB2E4"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 5
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
-  - optionText: "\uAE30\uD68C\uB97C \uB178\uB9B0\uB2E4"
-    buttonText: "\uAE30\uD68C\uB97C \uB178\uB9B0\uB2E4"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 11
         stats:
           hpPoint: 0
           spPoint: 0

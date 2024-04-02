@@ -15,16 +15,16 @@ MonoBehaviour:
   storyNumber: 8
   storytype: 0
   storyDone: 0
-  storyText: "\uB2AA\uADC0\uC2E0\uACFC \uC804\uD22C"
+  storyText: "\uAE30\uD68C\uB97C \uB178\uB824 \uACF5\uACA9\uC5D0  \uC131\uACF5/ \uC2E4\uD328"
   options:
-  - optionText: "\uC2B9\uB9AC"
-    buttonText: "\uC2B9\uB9AC"
+  - optionText: "\uC131\uACF5"
+    buttonText: "\uC131\uACF5"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
       - resultType: 4
-        value: 9
+        value: 10
         stats:
           hpPoint: 0
           spPoint: 0
@@ -38,14 +38,14 @@ MonoBehaviour:
           wisdom: 0
           charisma: 0
       failResult: []
-  - optionText: "\uD328\uBC30"
-    buttonText: "\uD328\uBC30"
+  - optionText: "\uC2E4\uD328"
+    buttonText: "\uC2E4\uD328"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
       - resultType: 4
-        value: 10
+        value: 12
         stats:
           hpPoint: 0
           spPoint: 0
