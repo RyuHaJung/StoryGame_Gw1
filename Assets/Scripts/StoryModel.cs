@@ -18,6 +18,7 @@ public class StoryModel : ScriptableObject
 
     public bool storyDone;
 
+    [TextArea(10, 10)]
     public string storyText;
 
     public Option[] options; // 선택지 배열
