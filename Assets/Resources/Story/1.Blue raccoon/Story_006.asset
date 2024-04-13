@@ -27,8 +27,8 @@ MonoBehaviour:
   - optionText: "\uB3C4\uB9DD\uCE5C\uB2E4"
     buttonText: "\uB3C4\uB9DD\uCE5C\uB2E4"
     eventCheck:
-      checkvalue: 50
-      eventType: 4
+      checkvalue: 0
+      eventType: 0
       sucessResult:
       - resultType: 4
         value: 7
