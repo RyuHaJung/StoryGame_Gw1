@@ -13,7 +13,28 @@ MonoBehaviour:
   m_Name: Story_010
   m_EditorClassIdentifier: 
   storyNumber: 10
-  storytype: 0
+  storytype: 2
   storyDone: 0
-  storyText: 
-  options: []
+  storyText: "\uCCAD\uB108\uAD6C\uB9AC\uC640 \uC804\uD22C \uC2B9\uB9AC"
+  options:
+  - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
+    buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 5
+        value: 0
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []

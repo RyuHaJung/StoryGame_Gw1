@@ -12,8 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 042c3ccec534cf041999cc115346a844, type: 3}
   m_Name: Story_013
   m_EditorClassIdentifier: 
-  storyNumber: 0
+  storyNumber: 13
   storytype: 0
   storyDone: 0
-  storyText: 
-  options: []
+  storyText: "\uD14C\uC2A4\uD2B82"
+  options:
+  - optionText: "\uD14C\uC2A4\uD2B82"
+    buttonText: "\uD14C\uC2A4\uD2B82"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 6
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []

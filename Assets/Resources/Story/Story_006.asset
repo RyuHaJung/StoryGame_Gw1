@@ -27,11 +27,11 @@ MonoBehaviour:
   - optionText: "\uB3C4\uB9DD\uCE5C\uB2E4"
     buttonText: "\uB3C4\uB9DD\uCE5C\uB2E4"
     eventCheck:
-      checkvalue: 0
-      eventType: 0
+      checkvalue: 50
+      eventType: 4
       sucessResult:
       - resultType: 4
-        value: 1
+        value: 7
         stats:
           hpPoint: 0
           spPoint: 0
@@ -44,7 +44,21 @@ MonoBehaviour:
           Intelligence: 0
           wisdom: 0
           charisma: 0
-      failResult: []
+      failResult:
+      - resultType: 4
+        value: 8
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
   - optionText: "\uACF5\uACA9\uD55C\uB2E4"
     buttonText: "\uACF5\uACA9\uD55C\uB2E4"
     eventCheck:
@@ -52,7 +66,7 @@ MonoBehaviour:
       eventType: 0
       sucessResult:
       - resultType: 4
-        value: 1
+        value: 9
         stats:
           hpPoint: 0
           spPoint: 0
