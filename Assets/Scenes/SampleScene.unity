@@ -1133,7 +1133,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: acd1c821cf9b90645a5647a1a6387f83, type: 2}
   - {fileID: 11400000, guid: 69705dc02b331014a849a88b592b222e, type: 2}
   - {fileID: 11400000, guid: d8c2afd13a13d594a88c930cfe257c9e, type: 2}
-  currentStoryIndex: 5
+  currentStoryIndex: 1
 --- !u!4 &426814014
 Transform:
   m_ObjectHideFlags: 0
