@@ -12,44 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 042c3ccec534cf041999cc115346a844, type: 3}
   m_Name: Story_019
   m_EditorClassIdentifier: 
-  storyNumber: 19
+  storyNumber: 0
   storytype: 0
   storyDone: 0
-  storyText: "\uB2F9\uC2E0\uC740 \uB0A8\uC790\uB97C \uD5A5\uD574 \uAC78\uC5B4\uAC14\uB2E4.
-    \uADF8\uB7F0 \uB2F9\uC2E0\uC758 \uBAA8\uC2B5\uC5D0 \uB0A8\uC790\uB294 \uC529
-    \uC6C3\uC73C\uBA70 \uB2F9\uC2E0\uC744 \uBC18\uACBC\uB2E4. \u201C\uB0B4\uAC00
-    \uBC24\uAE38\uC744 \uAC77\uB2E4 \uB2E4\uCCE4\uB294\uB370 \uB098\uB97C \uC880
-    \uB3C4\uC640\uC904 \uC218 \uC788\uACA0\uB098? \uB2F9\uC2E0\uC740 \uADF8 \uB9D0\uC5D0
-    \uADF8\uB97C \uC790\uC138\uD788 \uCCD0\uB2E4\uBCF4\uC558\uB2E4. \uAC00\uAE4C\uC774\uC11C
-    \uBCF8 \uADF8\uC758 \uBAA8\uC2B5\uC740 \uAC00\uD788 \uCDA9\uACA9\uC801\uC774\uC5C8\uB2E4.
-    \uB2F9\uC2E0\uC744 \uBC14\uB77C\uBCF4\uACE0 \uC788\uB294 \uC67C\uCABD \uBAA8\uC2B5\uC740
-    \uC628\uC804\uD588\uC73C\uB098 \uC624\uB978\uCABD\uC740 \uC5BC\uAD74, \uD314,
-    \uB2E4\uB9AC\uAC00 \uB2E4 \uBB3C\uC5B4 \uB72F\uACA8 \uCC22\uC5B4\uC9C4 \uBAA8\uC2B5\uC774\uC5C8\uB2E4.
-    \uB2F9\uC2E0\uC740 \uCDA9\uACA9\uC801\uC778 \uBAA8\uC2B5\uC5D0 \uB4B7\uAC78\uC74C\uC9C8\uCCE4\uB2E4.
-    \uADF8\uB7EC\uC790 \uADF8 \uB0A8\uC790\uB294 \uBC8C\uB5A1 \uC77C\uC5B4\uB098
-    \uC6C3\uC73C\uBA70 \uB2F9\uC2E0\uC5D0\uAC8C \uB2E4\uAC00\uC654\uB2E4.  \u201C\uB0B4\uAC00
-    \uBC94\uC5D0\uAC8C \uBB36\uC5EC \uC788\uC5B4 \uD669\uCC9C\uC744 \uAC74\uB110
-    \uC218\uAC00 \uC5C6\uC73C\uB2C8 \uC790\uB124\uAC00 \uB098\uB97C \uB3C4\uC640\uC918\uC57C\uACA0\uB124\u201D
-    \uB0A8\uC790\uB294 \uB2F9\uC2E0\uC5D0\uAC8C \uC190\uC744 \uBED7\uC73C\uBA70 \uB2E4\uAC00\uC654\uB2E4. "
-  options:
-  - optionText: "\uC804\uD22C(\uCC3D\uADC0)"
-    buttonText: "\uC804\uD22C(\uCC3D\uADC0)"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 20
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
+  storyText: 
+  options: []

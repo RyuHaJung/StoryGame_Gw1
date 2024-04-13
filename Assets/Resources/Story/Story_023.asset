@@ -12,15 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 042c3ccec534cf041999cc115346a844, type: 3}
   m_Name: Story_023
   m_EditorClassIdentifier: 
-  storyNumber: 23
+  storyNumber: 0
   storytype: 0
   storyDone: 0
-  storyText: 0
-  options:
-  - optionText: 
-    buttonText: 
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult: []
-      failResult: []
+  storyText: 
+  options: []

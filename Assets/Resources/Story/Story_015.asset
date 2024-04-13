@@ -12,33 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 042c3ccec534cf041999cc115346a844, type: 3}
   m_Name: Story_015
   m_EditorClassIdentifier: 
-  storyNumber: 15
+  storyNumber: 0
   storytype: 0
   storyDone: 0
-  storyText: "\uD328\uBC30\uD55C \uB2F9\uC2E0\uC744 \uB2AA \uADC0\uC2E0\uC774 \uC7A1\uC73C\uB824
-    \uC190\uC744 \uBED7\uC5C8\uC73C\uB098 \uB2F9\uC2E0\uC740 \uC7AC\uBE60\uB974\uAC8C
-    \uB2AA\uC9C0\uB97C \uBE60\uC838\uB098\uAC14\uACE0 \uB2AA\uC9C0\uB97C \uB098\uAC08
-    \uC218 \uC5C6\uC5C8\uB358 \uB2AA\uADC0\uC2E0\uC740 \uB2AA\uC9C0\uC5D0\uC11C \uB2F9\uC2E0\uC744
-    \uB178\uB824\uBCFC \uC218 \uBC16\uC5D0 \uC5C6\uC5C8\uB2E4 "
-  options:
-  - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
-    buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 16
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
+  storyText: 
+  options: []

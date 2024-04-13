@@ -15,47 +15,5 @@ MonoBehaviour:
   storyNumber: 7
   storytype: 0
   storyDone: 0
-  storyText: "\uB3C4\uB9DD\uCE58\uB294 \uB370 \uC131\uACF5/ \uC2E4\uD328"
-  options:
-  - optionText: "\uC131\uACF5"
-    buttonText: "\uC131\uACF5"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 9
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
-  - optionText: "\uC2E4\uD328"
-    buttonText: "\uC2E4\uD328"
-    eventCheck:
-      checkvalue: 0
-      eventType: 0
-      sucessResult:
-      - resultType: 4
-        value: 11
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
-      failResult: []
+  storyText: 
+  options: []
