@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 042c3ccec534cf041999cc115346a844, type: 3}
   m_Name: Story_024
   m_EditorClassIdentifier: 
-  storyNumber: 23
+  storyNumber: 24
   storytype: 2
   storyDone: 0
   storyText: "\uB2AA\uADC0\uC2E0\uACFC\uC758 \uC804\uD22C \uD328\uBC30"
