@@ -38,15 +38,15 @@ MonoBehaviour:
       - resultType: 4
         value: 2
         stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
+          hpPoint: 5
+          spPoint: 5
+          currentHpPoint: 5
+          currentSpPoint: 5
+          currentXpPoint: 5
+          strength: 5
+          dexterity: 5
+          consitiution: 5
+          Intelligence: 5
+          wisdom: 5
+          charisma: 5
       failResult: []
