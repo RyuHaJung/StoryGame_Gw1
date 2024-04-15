@@ -25,6 +25,14 @@ public class GameUI : MonoBehaviour
         Instance = this;
     }
 
+    public void Update()
+    {
+        UpdateHpUI();
+        UpdateSpUI();
+        UpdateXpUI();
+        UpdateStats();
+    }
+
     public void UpdateHpUI()
     {
         HpPoint.text = "HP : " + GameSystem.Instance.stats.currentHpPoint;
