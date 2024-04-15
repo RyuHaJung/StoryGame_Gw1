@@ -95,10 +95,12 @@ public class StorySystem : MonoBehaviour
     public void OnWayClick(int index)
     {
         bool CheckEventTypeNone = false;        //기본으로 NONE일때는 무조건 성공이라 실패시 다시 불리는것 피하기
+        StoryModel playStoryModel = currentStoryModel;
+        Debug.Log(index);
 
-        if (currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.NONE)
+        if (playStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.NONE)
         {
-            for (int i = 0; i < currentStoryModel.options[index].eventCheck.sucessResult.Length; i++)
+            for (int i = 0; i < playStoryModel.options[index].eventCheck.sucessResult.Length; i++)
             {
                 GameSystem.Instance.ApplyChoice(currentStoryModel.options[index].eventCheck.sucessResult[i]);
                 CheckEventTypeNone = true;
@@ -107,37 +109,37 @@ public class StorySystem : MonoBehaviour
 
         bool CheckValue = false;
 
-        if (currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckSTR)
+        if (playStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckSTR)
         {
-            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.strength) >= currentStoryModel.options[index].eventCheck.checkvalue)
+            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.strength) >= playStoryModel.options[index].eventCheck.checkvalue)
             {
                 CheckValue = true;
             }           
         }
-        else if (currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckDEX)
+        else if (playStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckDEX)
         {
-            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.dexterity) >= currentStoryModel.options[index].eventCheck.checkvalue)
+            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.dexterity) >= playStoryModel.options[index].eventCheck.checkvalue)
             {
                 CheckValue = true;
             }
         }
-        else if (currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckCON)
+        else if (playStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckCON)
         {
-            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.consitiution) >= currentStoryModel.options[index].eventCheck.checkvalue)
+            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.consitiution) >= playStoryModel.options[index].eventCheck.checkvalue)
             {
                 CheckValue = true;
             }
         }
-        else if (currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckINT)
+        else if (playStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckINT)
         {
-            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.Intelligence) >= currentStoryModel.options[index].eventCheck.checkvalue)
+            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.Intelligence) >= playStoryModel.options[index].eventCheck.checkvalue)
             {
                 CheckValue = true;
             }
         }
-        else if (currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckCHA)
+        else if (playStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckCHA)
         {
-            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.charisma) >= currentStoryModel.options[index].eventCheck.checkvalue)
+            if (UnityEngine.Random.Range(0, GameSystem.Instance.stats.charisma) >= playStoryModel.options[index].eventCheck.checkvalue)
             {
                 CheckValue = true;
             }
@@ -146,18 +148,18 @@ public class StorySystem : MonoBehaviour
 
         if (CheckValue)
         {
-            for (int i = 0; i < currentStoryModel.options[index].eventCheck.sucessResult.Length; i++)
+            for (int i = 0; i < playStoryModel.options[index].eventCheck.sucessResult.Length; i++)
             {
-                GameSystem.Instance.ApplyChoice(currentStoryModel.options[index].eventCheck.sucessResult[i]);
+                GameSystem.Instance.ApplyChoice(playStoryModel.options[index].eventCheck.sucessResult[i]);
             }
         }
         else
         {
             if(CheckEventTypeNone == false)
             {
-                for (int i = 0; i < currentStoryModel.options[index].eventCheck.failResult.Length; i++)
+                for (int i = 0; i < playStoryModel.options[index].eventCheck.failResult.Length; i++)
                 {
-                    GameSystem.Instance.ApplyChoice(currentStoryModel.options[index].eventCheck.failResult[i]);
+                    GameSystem.Instance.ApplyChoice(playStoryModel.options[index].eventCheck.failResult[i]);
                 }
             }       
         }
