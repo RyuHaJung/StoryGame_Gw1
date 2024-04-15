@@ -98,27 +98,44 @@ public class GameSystem : MonoBehaviour
             case StoryModel.Result.ResultType.ChangeHp:
                 stats.currentHpPoint += result.value;
                 GameUI.Instance.UpdateHpUI();
+                ChangeStats(result);
                 break;
 
             case StoryModel.Result.ResultType.AddExperience:
                 stats.currentXpPoint += result.value;
                 GameUI.Instance.UpdateXpUI();
+                ChangeStats(result);
                 break;
 
             case StoryModel.Result.ResultType.GoToNextStory:
                 currentStoryIndex = result.value;
                 ChangeState(GAMESTATE.STORYSHOW);
+                ChangeStats(result);
                 break;
 
             case StoryModel.Result.ResultType.GoToRandomStory:
                 RandomStory();
                 ChangeState(GAMESTATE.STORYSHOW);
+                ChangeStats(result);
                 break;
 
             default:
                 Debug.LogError("Unknown effect type");
                 break;
         }
+    }
+
+    public void ChangeStats(StoryModel.Result result)
+    {
+        if (result.stats.hpPoint > 0) stats.hpPoint += result.stats.hpPoint;
+        if (result.stats.spPoint > 0) stats.spPoint += result.stats.spPoint;
+        if (result.stats.currentXpPoint > 0) stats.currentXpPoint += result.stats.currentXpPoint;
+        if (result.stats.strength > 0) stats.strength += result.stats.strength;
+        if (result.stats.dexterity > 0) stats.dexterity += result.stats.dexterity;
+        if (result.stats.consitiution > 0) stats.consitiution += result.stats.consitiution;
+        if (result.stats.Intelligence > 0) stats.Intelligence += result.stats.Intelligence;
+        if (result.stats.charisma > 0) stats.charisma += result.stats.charisma;
+
     }
 
     public void ChangeState(GAMESTATE temp)

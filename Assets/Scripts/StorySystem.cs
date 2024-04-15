@@ -94,6 +94,7 @@ public class StorySystem : MonoBehaviour
         {
             Debug.LogError($"Unable to load texture: { currentStoryModel.MainImage.name}");
         }
+
         for (int i = 0; i <= fullText.Length; i++)
         {
             currentText = fullText.Substring(0, i);
