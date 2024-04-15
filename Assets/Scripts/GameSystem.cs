@@ -129,10 +129,13 @@ public class GameSystem : MonoBehaviour
     {
         if (result.stats.hpPoint > 0) stats.hpPoint += result.stats.hpPoint;
         if (result.stats.spPoint > 0) stats.spPoint += result.stats.spPoint;
+        if (result.stats.currentHpPoint > 0) stats.currentHpPoint += result.stats.currentHpPoint;
+        if (result.stats.currentSpPoint > 0) stats.currentSpPoint += result.stats.currentSpPoint;
         if (result.stats.currentXpPoint > 0) stats.currentXpPoint += result.stats.currentXpPoint;
         if (result.stats.strength > 0) stats.strength += result.stats.strength;
         if (result.stats.dexterity > 0) stats.dexterity += result.stats.dexterity;
         if (result.stats.consitiution > 0) stats.consitiution += result.stats.consitiution;
+        if (result.stats.wisdom > 0) stats.wisdom += result.stats.wisdom;
         if (result.stats.Intelligence > 0) stats.Intelligence += result.stats.Intelligence;
         if (result.stats.charisma > 0) stats.charisma += result.stats.charisma;
 
