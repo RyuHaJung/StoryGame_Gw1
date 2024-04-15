@@ -94,11 +94,14 @@ public class StorySystem : MonoBehaviour
 
     public void OnWayClick(int index)
     {
-        if(currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.NONE)
+        bool CheckEventTypeNone = false;        //기본으로 NONE일때는 무조건 성공이라 실패시 다시 불리는것 피하기
+
+        if (currentStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.NONE)
         {
             for (int i = 0; i < currentStoryModel.options[index].eventCheck.sucessResult.Length; i++)
             {
                 GameSystem.Instance.ApplyChoice(currentStoryModel.options[index].eventCheck.sucessResult[i]);
+                CheckEventTypeNone = true;
             }
         }
 
@@ -150,11 +153,15 @@ public class StorySystem : MonoBehaviour
         }
         else
         {
-            for (int i = 0; i < currentStoryModel.options[index].eventCheck.failResult.Length; i++)
+            if(CheckEventTypeNone == false)
             {
-                GameSystem.Instance.ApplyChoice(currentStoryModel.options[index].eventCheck.failResult[i]);
-            }
+                for (int i = 0; i < currentStoryModel.options[index].eventCheck.failResult.Length; i++)
+                {
+                    GameSystem.Instance.ApplyChoice(currentStoryModel.options[index].eventCheck.failResult[i]);
+                }
+            }       
         }
+
     }
 
 }
