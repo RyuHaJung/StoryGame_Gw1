@@ -23,6 +23,7 @@ public class StorySystem : MonoBehaviour
     private string currentText = "";            // 현재까지 표시된 텍스트
     public TMP_Text textComponent;              // TextMeshPro 컴포넌트
     public TMP_Text storyIndex;                 // storyIndex 
+    public Image imageComponent;                    
 
     public Button[] buttonWay = new Button[3];
     public TMP_Text[] buttonWayText = new TMP_Text[3];
@@ -76,6 +77,23 @@ public class StorySystem : MonoBehaviour
 
     IEnumerator ShowText()
     {
+
+       
+
+        if (currentStoryModel.MainImage != null)
+        {
+            // Texture2D를 Sprite로 변환
+            Rect rect = new Rect(0, 0, currentStoryModel.MainImage.width, currentStoryModel.MainImage.height);
+            Vector2 pivot = new Vector2(0.5f, 0.5f); // 스프라이트의 축(중심) 지정
+            Sprite sprite = Sprite.Create(currentStoryModel.MainImage, rect, pivot);
+
+            // Image 컴포넌트에 스프라이트 설정
+            imageComponent.sprite = sprite;
+        }
+        else
+        {
+            Debug.LogError($"Unable to load texture: { currentStoryModel.MainImage.name}");
+        }
         for (int i = 0; i <= fullText.Length; i++)
         {
             currentText = fullText.Substring(0, i);
