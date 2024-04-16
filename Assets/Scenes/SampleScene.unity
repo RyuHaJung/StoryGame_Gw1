@@ -1322,8 +1322,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7c66d65346d40d54e81bcfccd28d3e37, type: 2}
   - {fileID: 11400000, guid: a5ae8029be65f754193c220ae53e137b, type: 2}
   - {fileID: 11400000, guid: fbdb2337916f82145baae0e5b0394b57, type: 2}
+  - {fileID: 11400000, guid: fc38ebad5407f1544b57588c14975114, type: 2}
+  - {fileID: 11400000, guid: 333fb1982d66f4c4196f6e421aeab13e, type: 2}
+  - {fileID: 11400000, guid: 5d33049641742cf4eb3b84fcb50f40ae, type: 2}
+  - {fileID: 11400000, guid: 14aafa2dad130314f99c4a9ea9087f79, type: 2}
   - {fileID: 11400000, guid: 7a9da3263497c2240881a0e78d43c389, type: 2}
-  currentStoryIndex: 45
+  - {fileID: 11400000, guid: b5ee888ec6c4c48418de0127755745ec, type: 2}
+  - {fileID: 11400000, guid: 40fc3020bbb651d4bb1987a076be9724, type: 2}
+  currentStoryIndex: 1
 --- !u!4 &426814014
 Transform:
   m_ObjectHideFlags: 0
