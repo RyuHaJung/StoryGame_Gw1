@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 76c58f68194665c43b2016b4b3bacf2f
+guid: dee93db03a3289d42a727e8c33ebf19a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,148 +123,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GUI_4x_0
+      name: RADL_Book_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 161
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 14
+        width: 77
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9691ee78518b214f9b062736600856b
-      internalID: -1526104980
+      spriteID: 115a44c717160294fa5468bbc6ad2933
+      internalID: -2035072869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_4x_1
+      name: RADL_Book_1
       rect:
         serializedVersion: 2
-        x: 292
-        y: 160
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 282
+        y: 14
+        width: 77
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5990be73fb4c7564f940d68d0cfdac2a
-      internalID: -2062753291
+      spriteID: 7c135722bb9d55d43a66b1581c0f790c
+      internalID: -1203214490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_4x_2
+      name: RADL_Book_2
       rect:
         serializedVersion: 2
-        x: 320
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 392
+        y: 14
+        width: 157
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73542ebe292ab0b43a0d5bc292e869e3
-      internalID: -1963343673
+      spriteID: bdef2cf81b588c84ea900700ac8050dd
+      internalID: -1413834158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_4x_3
+      name: RADL_Book_3
       rect:
         serializedVersion: 2
-        x: 356
-        y: 161
-        width: 24
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 582
+        y: 14
+        width: 157
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56f152146307e064bb8ec0c91b6ee0a4
-      internalID: -964733215
+      spriteID: b465239eb2c8fd14180a1e607cb41e48
+      internalID: -1435336746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_4x_4
+      name: RADL_Book_4
       rect:
         serializedVersion: 2
-        x: 384
-        y: 160
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 772
+        y: 14
+        width: 157
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c109eb9bad73b24d9a3b4aba1888c8d
-      internalID: -59132614
+      spriteID: bfb13328624efca4492c628bc7c07690
+      internalID: -893936159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_4x_5
+      name: RADL_Book_5
       rect:
         serializedVersion: 2
-        x: 416
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 962
+        y: 14
+        width: 157
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22abcac9258d04646af5edd7f6947efc
-      internalID: 1520328185
+      spriteID: 1c68479e494a0fd4881425d6aa4df16e
+      internalID: -113317757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GUI_4x_6
+      name: RADL_Book_6
       rect:
         serializedVersion: 2
-        x: 448
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 14
+        width: 157
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13abee05de5b7e44e9dc369cbe702020
-      internalID: -801380835
+      spriteID: a914f79a80bed1b4aace3c257cf9cfbb
+      internalID: -871707489
       vertices: []
       indices: 
       edges: []
@@ -280,13 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GUI_4x_0: -1526104980
-      GUI_4x_1: -2062753291
-      GUI_4x_2: -1963343673
-      GUI_4x_3: -964733215
-      GUI_4x_4: -59132614
-      GUI_4x_5: 1520328185
-      GUI_4x_6: -801380835
+      RADL_Book_0: -2035072869
+      RADL_Book_1: -1203214490
+      RADL_Book_2: -1413834158
+      RADL_Book_3: -1435336746
+      RADL_Book_4: -893936159
+      RADL_Book_5: -113317757
+      RADL_Book_6: -871707489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
