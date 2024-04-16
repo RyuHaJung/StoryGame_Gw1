@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Story_002
   m_EditorClassIdentifier: 
   storyNumber: 2
-  MainImage: {fileID: 2800000, guid: 08a841263036a0a47a1abf8603a3e2ae, type: 3}
+  MainImage: {fileID: 2800000, guid: 9204cdd7c22a56149a241894e71eb57d, type: 3}
   storytype: 2
   storyDone: 0
   storyText: "\uADF8\uB7EC\uC790 \uB2F9\uC2E0\uC758 \uCE5C\uAD6C\uB294 \uC6C3\uC73C\uBA70
