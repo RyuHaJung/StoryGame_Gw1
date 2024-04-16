@@ -30,7 +30,7 @@ MonoBehaviour:
     buttonText: "\uB3C4\uB9DD\uCE5C\uB2E4"
     eventCheck:
       checkvalue: 0
-      eventType: 6
+      eventType: 0
       sucessResult:
       - resultType: 4
         value: 7
