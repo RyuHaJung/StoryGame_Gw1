@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChange : MonoBehaviour
+public class SceneChange_03 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,7 +14,7 @@ public class SceneChange : MonoBehaviour
     // Update is called once per frame
     public void Change()
     {
-            SceneManager.LoadScene("02.EnvelopScene");
-        
+        SceneManager.LoadScene("06.Scene_1");
+
     }
 }

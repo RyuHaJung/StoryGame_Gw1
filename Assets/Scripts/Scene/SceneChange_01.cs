@@ -14,7 +14,7 @@ public class SceneChange_01 : MonoBehaviour
     // Update is called once per frame
     public void Change()
     {
-        SceneManager.LoadScene("04.Scene_1");
+        SceneManager.LoadScene("03.EnvelopScene2");
 
     }
 }
