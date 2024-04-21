@@ -672,8 +672,8 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 60
-      speakerUIindex: 1
-      name: 
+      speakerUIindex: 0
+      name: "\uB098"
       dialogue: "[\uC751]"
       characterPath: Character/00001
       BackGroundPath: None
