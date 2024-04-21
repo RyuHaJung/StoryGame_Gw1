@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Story_016
   m_EditorClassIdentifier: 
   storyNumber: 16
-  MainImage: {fileID: 2800000, guid: f47a4fea29117c7408ed6799cf914d81, type: 3}
+  MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   storytype: 2
   storyDone: 0
-  storyText: "\uB3C4\uAE68\uBE44\uB294 \uBB34\uCC99\uC774\uB098 \uC2E4\uB9DD\uD558\uBA70
-    \uD22C\uB35C\uAC70\uB9AC\uBA70 \uB5A0\uB098\uAC14\uB2E4"
+  storyText: "\uB2F9\uC2E0\uC740 \uB3C4\uAE68\uBE44\uC758 \uC81C\uC548\uC744 \uAC70\uC808\uD588\uB2E4.\n\uB3C4\uAE68\uBE44\uB294
+    \uB2F9\uC2E0\uC758 \uAC70\uC808\uC5D0 \uBB34\uCC99\uC774\uB098 \uC2E4\uB9DD\uD558\uBA70
+    \n\uD22C\uB35C\uAC70\uB9AC\uBA70 \uB5A0\uB0AC\uB2E4."
   options:
   - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"

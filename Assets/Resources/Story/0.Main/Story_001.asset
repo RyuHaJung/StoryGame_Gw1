@@ -23,11 +23,11 @@ MonoBehaviour:
     \uCD9C\uBAB0\uD55C\uB2E4\uACE0 \uD558\uB294 \n\uADC0\uC2E0\uC0B0\uC744 \uC624\uB974\uAC8C
     \uB418\uC5C8\uB2E4. \n\n\uB2F9\uC2E0\uC740 \uBB34\uC11C\uC6C0\uC744 \uCC38\uC73C\uBA70
     \uC55E\uC73C\uB85C \uB098\uC544\uAC14\uC9C0\uB9CC \n\uACC4\uC18D \uC5B4\uB514\uC120\uAC00
-    \uB290\uAEF4\uC9C0\uB294 \uC2DC\uC120\uC5D0 \uC18C\uB984\uC774 \uB3CB\uAE30 \uC2DC\uC791\uD588\uB2E4.
-    \n\uC774\uB0B4 \uBB3C\uAE30 \uC5B4\uB9B0 \uC11C\uB298\uD55C \uBC14\uB78C\uC774
-    \uBAA9 \uB4A4\uB97C \uC2A4\uCE58\uC790 \n\uB450\uB824\uC6C0\uC744 \uCC38\uC9C0
-    \uBABB\uD55C \uB2F9\uC2E0\uC740 \uCE5C\uAD6C\uC5D0\uAC8C \n\uC0B0\uC744 \uB0B4\uB824\uAC00\uC790\uACE0
-    \uD588\uB2E4."
+    \uB290\uAEF4\uC9C0\uB294 \uC2DC\uC120\uC5D0 \n\uC18C\uB984\uC774 \uB3CB\uAE30
+    \uC2DC\uC791\uD588\uB2E4. \n\uC774\uB0B4 \uBB3C\uAE30 \uC5B4\uB9B0 \uC11C\uB298\uD55C
+    \uBC14\uB78C\uC774 \uBAA9 \uB4A4\uB97C \uC2A4\uCE58\uC790 \n\uB450\uB824\uC6C0\uC744
+    \uCC38\uC9C0 \uBABB\uD55C \uB2F9\uC2E0\uC740 \uCE5C\uAD6C\uC5D0\uAC8C \n\uC0B0\uC744
+    \uB0B4\uB824\uAC00\uC790\uACE0 \uD588\uB2E4."
   options:
   - optionText: "\uB0B4\uB824\uAC00\uC790"
     buttonText: "\uB0B4\uB824\uAC00\uC790"
@@ -38,15 +38,15 @@ MonoBehaviour:
       - resultType: 4
         value: 2
         stats:
-          hpPoint: 5
-          spPoint: 5
+          hpPoint: 0
+          spPoint: 0
           currentHpPoint: 5
           currentSpPoint: 5
-          currentXpPoint: 5
-          strength: 5
-          dexterity: 5
-          consitiution: 5
-          Intelligence: 5
-          wisdom: 5
-          charisma: 5
+          currentXpPoint: 0
+          strength: 4
+          dexterity: 6
+          consitiution: 8
+          Intelligence: 2
+          wisdom: 6
+          charisma: 3
       failResult: []
