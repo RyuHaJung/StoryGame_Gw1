@@ -39,7 +39,7 @@ MonoBehaviour:
           spPoint: 0
           currentHpPoint: 0
           currentSpPoint: 0
-          currentXpPoint: 0
+          currentXpPoint: 1
           strength: 0
           dexterity: 0
           consitiution: 0
