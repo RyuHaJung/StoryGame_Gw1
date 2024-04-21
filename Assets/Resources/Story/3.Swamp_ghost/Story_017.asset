@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Story_017
   m_EditorClassIdentifier: 
   storyNumber: 17
-  MainImage: {fileID: 2800000, guid: f47a4fea29117c7408ed6799cf914d81, type: 3}
+  MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   storytype: 0
   storyDone: 0
   storyText: "\uC9C8\uCC99\uC774\uB294 \uC9C4\uD759\uC774 \uAC00\uB4DD\uD55C \uB2AA\uC9C0\uB97C
@@ -81,8 +81,8 @@ MonoBehaviour:
   - optionText: "\uAE30\uD68C\uB97C \uB178\uB9B0\uB2E4"
     buttonText: "\uAE30\uD68C\uB97C \uB178\uB9B0\uB2E4"
     eventCheck:
-      checkvalue: 50
-      eventType: 5
+      checkvalue: 0
+      eventType: 0
       sucessResult:
       - resultType: 4
         value: 21
