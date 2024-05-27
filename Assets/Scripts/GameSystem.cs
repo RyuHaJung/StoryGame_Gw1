@@ -168,7 +168,7 @@ public class GameSystem : MonoBehaviour
 
         for (int i = 0; i < storyModels.Length; i++)
         {
-            if (storyModels[i].storytype == StoryModel.STORYTYPE.MAIN)
+            if (storyModels[i].storytype == StoryModel.STORYTYPE.MAIN && storyModels[i].storyLevel >= stats.currentXpPoint)
             {
                 StoryModelList.Add(storyModels[i]);              
             }
