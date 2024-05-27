@@ -164,6 +164,16 @@ public class StorySystem : MonoBehaviour
             }
         }
 
+        if (playStoryModel.options[index].eventCheck.eventType == StoryModel.EventCheck.EventType.CheckXP)
+        {
+            if (GameSystem.Instance.stats.currentXpPoint == playStoryModel.options[index].eventCheck.checkvalue)
+            {
+                CheckValue = true;
+            }
+
+        }
+            
+
 
         if (CheckValue)
         {

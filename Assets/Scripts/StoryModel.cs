@@ -48,7 +48,8 @@ public class StoryModel : ScriptableObject
             CheckCON,
             CheckINT,
             CheckWIS,
-            CheckCHA
+            CheckCHA,
+            CheckXP,
 
         }
 
