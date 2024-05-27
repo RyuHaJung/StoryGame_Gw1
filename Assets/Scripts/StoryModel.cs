@@ -6,7 +6,8 @@ using UnityEngine;
 public class StoryModel : ScriptableObject
 {
     public int storyNumber;
-    public int storyLevel;
+    public int storyLevelMin;
+    public int storyLevelMax;
 
     public Texture2D MainImage;
 
