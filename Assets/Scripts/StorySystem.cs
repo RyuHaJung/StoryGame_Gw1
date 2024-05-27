@@ -78,7 +78,10 @@ public class StorySystem : MonoBehaviour
     IEnumerator ShowText()
     {
 
-       
+        if(currentStoryModel.voice != "")
+        {
+            SoundManager.instance.PlaySound(currentStoryModel.voice);
+        }
 
         if (currentStoryModel.MainImage != null)
         {

@@ -8,6 +8,8 @@ public class StoryModel : ScriptableObject
     public int storyNumber;
 
     public Texture2D MainImage;
+
+    public string voice;
     
     public enum STORYTYPE
     {
