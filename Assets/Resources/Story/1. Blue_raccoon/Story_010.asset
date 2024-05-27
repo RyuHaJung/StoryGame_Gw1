@@ -24,11 +24,11 @@ MonoBehaviour:
   - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     eventCheck:
-      checkvalue: 5
-      eventType: 8
+      checkvalue: 0
+      eventType: 0
       sucessResult:
-      - resultType: 4
-        value: 59
+      - resultType: 5
+        value: 0
         stats:
           hpPoint: 0
           spPoint: 0
