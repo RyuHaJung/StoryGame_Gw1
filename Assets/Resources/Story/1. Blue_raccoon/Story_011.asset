@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyNumber: 11
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
+  voice: 
   storytype: 2
   storyDone: 0
   storyText: "\uCCAD\uB108\uAD6C\uB9AC\uC640\uC758 \uC804\uD22C \uD328\uBC30\n\uB2F9\uC2E0\uC744

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyNumber: 5
   MainImage: {fileID: 2800000, guid: c733dfd29029cb8408aa8d8a109d7851, type: 3}
+  voice: 
   storytype: 2
   storyDone: 0
   storyText: "\uCC98\uC74C\uBCF4\uB294 \uACF5\uAC04\uC5D0\uC11C \uB208\uC744 \uB72C
@@ -31,8 +32,8 @@ MonoBehaviour:
       checkvalue: 0
       eventType: 0
       sucessResult:
-      - resultType: 5
-        value: 0
+      - resultType: 4
+        value: 6
         stats:
           hpPoint: 0
           spPoint: 0
