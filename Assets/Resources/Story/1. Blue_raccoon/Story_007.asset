@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Story_007
   m_EditorClassIdentifier: 
   storyNumber: 7
+  storyLevelMin: 0
+  storyLevelMax: 0
   MainImage: {fileID: 2800000, guid: fbc985d4e1e0e0e44b3aea0abf5434bf, type: 3}
+  voice: 
   storytype: 2
   storyDone: 0
   storyText: "\uB2F9\uC2E0\uC740 \uC7AC\uBE60\uB974\uAC8C \uB3C4\uB9DD\uAC14\uB2E4.\r\n\uB2F9\uC2E0\uC740
@@ -23,11 +26,11 @@ MonoBehaviour:
   - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     eventCheck:
-      checkvalue: 0
-      eventType: 0
+      checkvalue: 5
+      eventType: 8
       sucessResult:
-      - resultType: 5
-        value: 0
+      - resultType: 4
+        value: 59
         stats:
           hpPoint: 0
           spPoint: 0
@@ -40,4 +43,18 @@ MonoBehaviour:
           Intelligence: 0
           wisdom: 0
           charisma: 0
-      failResult: []
+      failResult:
+      - resultType: 5
+        value: 0
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
