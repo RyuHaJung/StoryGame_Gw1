@@ -326,7 +326,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1. \uC0AC\uB77C\uC9C4 \uCE5C\uAD6C"
+  m_Text: "1. \uB3D9\uC0DD\uACFC \uB3C4\uAE68\uBE44"
 --- !u!222 &151177572
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "2. \uC5C5\uB370\uC774\uD2B8 \uC608\uC815"
+  m_Text: "2. \uC0AC\uB77C\uC9C4 \uCE5C\uAD6C"
 --- !u!222 &550856146
 CanvasRenderer:
   m_ObjectHideFlags: 0
