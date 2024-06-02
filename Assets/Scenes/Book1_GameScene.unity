@@ -1540,9 +1540,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aa6f5e3022dfd574184af3072891a61e, type: 2}
   - {fileID: 11400000, guid: fbdb2337916f82145baae0e5b0394b57, type: 2}
   - {fileID: 11400000, guid: 2a78358df6c6e284bb103aa18c541e22, type: 2}
+  - {fileID: 11400000, guid: dc652a32811b08740bd995da7bd68bcb, type: 2}
   - {fileID: 11400000, guid: 40ee751564c27ce4c8f012804ea5aa4b, type: 2}
   - {fileID: 11400000, guid: db759ee66c2318d489673e5a4196f68a, type: 2}
-  currentStoryIndex: 60
+  - {fileID: 11400000, guid: 783011103440808438a7fb12ada8d86e, type: 2}
+  - {fileID: 11400000, guid: c2ffd294fc3bea045a97e40c9a01d7ee, type: 2}
+  - {fileID: 11400000, guid: 1aa4c6954ac8bdd45a430ae076da5cb4, type: 2}
+  - {fileID: 11400000, guid: bc3213df125cdd04d9018af9e70020e8, type: 2}
+  - {fileID: 11400000, guid: 9e57700350695f140897be8b69693883, type: 2}
+  - {fileID: 11400000, guid: 78784764343e12644af512192777e8a5, type: 2}
+  - {fileID: 11400000, guid: 23e88c69543d24045b2532d143967676, type: 2}
+  - {fileID: 11400000, guid: 10da7a9fc9da0e246aaf6f8eed2cf16f, type: 2}
+  - {fileID: 11400000, guid: 6f1ca73377e4b4d47a2dda63ca1f76d6, type: 2}
+  - {fileID: 11400000, guid: 2b738643f51df964f817358c3dbbfe13, type: 2}
+  - {fileID: 11400000, guid: f3a9eeafe85598845922b21bdada0897, type: 2}
+  currentStoryIndex: 68
 --- !u!4 &426814014
 Transform:
   m_ObjectHideFlags: 0

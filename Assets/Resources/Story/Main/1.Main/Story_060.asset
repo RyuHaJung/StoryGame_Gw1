@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Story_060
   m_EditorClassIdentifier: 
   storyNumber: 60
-  storyLevelMin: 5
-  storyLevelMax: 5
+  storyLevelMin: 0
+  storyLevelMax: 0
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   voice: 
   storytype: 2
