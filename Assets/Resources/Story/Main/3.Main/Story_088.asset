@@ -10,31 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 042c3ccec534cf041999cc115346a844, type: 3}
-  m_Name: Story_081
+  m_Name: Story_088
   m_EditorClassIdentifier: 
-  storyNumber: 81
+  storyNumber: 88
   storyLevelMin: 0
   storyLevelMax: 0
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   voice: 
   storytype: 2
   storyDone: 0
-  storyText: "\uB2F9\uC2E0\uC740 \uC0B0\uACFC \uCE58\uC5F4\uD558\uAC8C \uC2F8\uC6E0\uB2E4.\n\uB2F9\uC2E0\uACFC
-    \uC0B0\uC740 \uC11C\uB85C\uC5D0\uAC8C \uD070 \uC0C1\uCC98\uB97C \uC785\uD788\uBA70
-    \n\uC2B9\uBD80\uB294 \uBB34\uC2B9\uBD80\uAC00 \uB420 \uBED4 \uD588\uC9C0\uB9CC
-    \uB2F9\uC2E0\uC740 \n\uB9C8\uC9C0\uB9C9 \uACF5\uACA9\uC5D0\uC11C \uC2E4\uC218\uD574
-    \uACB0\uD22C\uC5D0\uC11C \uD328\uBC30\uD558\uC600\uB2E4. \n\n\uB2F9\uC2E0\uC774
-    \uC0B0\uC758 \uACF5\uACA9\uC5D0 \uC4F0\uB7EC\uC9C0\uC790 \uAE5C\uC9DD \uB180\uB780
-    \uB3D9\uC0DD\uC774 \n\uB2F9\uC2E0\uC5D0\uAC8C \uB2E4\uAC00\uC628 \uC21C\uAC04"
+  storyText: "\uB2F9\uC2E0\uC740 \uC0B0\uC744 \uB2EC\uB798\uC8FC\uBA70 \uD560\uC544\uBC84\uC9C0\uC640
+    \uB9CC\uB098\uAC8C \uD574\uC8FC\uACE0 \uAC74\uC6B0\uC640\uB3C4 \uCE5C\uAD6C\uB85C
+    \uC9C0\uB0BC \uC218 \uC788\uAC8C \uD574\uC8FC\uACA0\uB2E4\uACE0 \uB9D0\uD588\uB2E4.
+    \uC0B0\uC740 \uB208\uBB3C\uC744 \uBA48\uCD94\uACE0\uB294 \uB2F9\uC2E0\uC744 \uBC14\uB77C\uBCF4\uC558\uB2E4.
+    \uB2F9\uC2E0\uC740 \uAC74\uC6B0\uAC00 \uB2E4\uCE58\uC9C0 \uC54A\uC558\uACE0 \uBB34\uC0AC\uD788
+    \uC798 \uC788\uC5C8\uACE0, \uC774\uBBF8 \uB458\uC774 \uCE5C\uAD6C\uC778 \uAC83
+    \uAC19\uC73C\uB2C8 \uB9C9\uC9C0\uB294 \uC54A\uACA0\uB2E4\uACE0 \uD588\uB2E4.
+    \uB2E8 \uC778\uAC04 \uC138\uACC4\uC5D0\uC11C\uB9CC \uB9CC\uB098\uB77C\uB294 \uC870\uAC74\uC744
+    \uAC78\uC5C8\uB2E4."
   options:
-  - optionText: "\uB3C4\uB9DD\uCE5C\uB2E4"
-    buttonText: "\uB3C4\uB9DD\uCE5C\uB2E4"
+  - optionText: "\uC5B4\uB54C?"
+    buttonText: "\uC5B4\uB54C?"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
       - resultType: 4
-        value: 82
+        value: 89
         stats:
           hpPoint: 0
           spPoint: 0

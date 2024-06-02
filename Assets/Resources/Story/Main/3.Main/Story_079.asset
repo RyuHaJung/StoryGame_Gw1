@@ -19,16 +19,20 @@ MonoBehaviour:
   voice: 
   storytype: 2
   storyDone: 0
-  storyText: 
+  storyText: "[\uC9D1\uC73C\uB85C] \n\n\uB2F9\uC2E0\uACFC \uB3D9\uC0DD\uC740 \uBB34\uC0AC\uD788
+    \uC778\uAC04 \uC138\uACC4\uB85C \uB3CC\uC544\uC654\uB2E4. \n\uB2F9\uC2E0\uACFC
+    \uB3D9\uC0DD\uC740 \uD560\uC544\uBC84\uC9C0\uC5D0\uAC8C \uADF8\uB3D9\uC548 \uC788\uC5C8\uB358
+    \uC77C\uB4E4\uC744 \n\uC124\uBA85\uD574 \uC8FC\uC5C8\uACE0 \uB2E4\uC2DC \uBD80\uBAA8\uB2D8\uC5D0\uAC8C
+    \uB3CC\uC544\uAC08 \uC218 \uC788\uC5C8\uB2E4."
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uC5D0\uD544\uB85C\uADF8"
+    buttonText: "\uC5D0\uD544\uB85C\uADF8"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
-      - resultType: 5
-        value: 0
+      - resultType: 4
+        value: 80
         stats:
           hpPoint: 0
           spPoint: 0

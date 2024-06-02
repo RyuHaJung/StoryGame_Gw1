@@ -19,16 +19,42 @@ MonoBehaviour:
   voice: 
   storytype: 2
   storyDone: 0
-  storyText: 
+  storyText: "\uB2F9\uC2E0\uC740 \uC885\uC774\uD559\uC744 \uB530\uB77C \uAC77\uB358
+    \uC911 \n\uC800 \uBA40\uB9AC \uAC77\uACE0 \uC788\uB294 \uB3D9\uC0DD\uACFC \uB3C4\uAE68\uBE44\uB97C
+    \uBC1C\uACAC\uD588\uB2E4. \n\n\uB2F9\uC2E0\uC740 \uB2E4\uAE09\uD55C \uB9C8\uC74C\uC5D0
+    \uB2EC\uB9AC\uAE30 \uC2DC\uC791\uD588\uB2E4. \n\uADF8\uB54C \uB2F9\uC2E0\uC744
+    \uBC1C\uACAC\uD55C \uB3C4\uAE68\uBE44 '\uC0B0'\uC740 \n\uB2F9\uC2E0\uC740 \uBCF4\uC790
+    \uC5BC\uAD74\uC774 \uCC3D\uBC31\uD558\uAC8C \uBCC0\uD588\uB2E4."
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uB0B4 \uB3D9\uC0DD \uB0B4\uB194!"
+    buttonText: "\uB0B4 \uB3D9\uC0DD \uB0B4\uB194!"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
-      - resultType: 5
-        value: 0
+      - resultType: 4
+        value: 76
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 2
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []
+  - optionText: "\uB9CC\uB098\uAC8C \uD574\uC904\uAED8!"
+    buttonText: "\uB9CC\uB098\uAC8C \uD574\uC904\uAED8!"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 85
         stats:
           hpPoint: 0
           spPoint: 0
