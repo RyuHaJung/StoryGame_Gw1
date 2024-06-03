@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Story_058
   m_EditorClassIdentifier: 
   storyNumber: 58
+  storyLevelMin: 0
+  storyLevelMax: 0
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
+  voice: 
   storytype: 2
   storyDone: 0
   storyText: "\uB2F9\uC2E0\uC740 \uC774 \uC774\uC0C1 \uCCD0\uB2E4\uBCF4\uBA74 \uC704\uD5D8\uD558\uACA0\uB2E4\uACE0
