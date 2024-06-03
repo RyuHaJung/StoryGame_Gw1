@@ -79,6 +79,7 @@ public class StoryModel : ScriptableObject
 
         public ResultType resultType;
         public int value;
+        public string changeSceneName;
         public Stats stats;
     }
 

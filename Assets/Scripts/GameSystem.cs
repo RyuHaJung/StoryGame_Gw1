@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEditor;
 using System.Text;
@@ -117,6 +118,10 @@ public class GameSystem : MonoBehaviour
                 RandomStory();
                 ChangeState(GAMESTATE.STORYSHOW);
                 ChangeStats(result);
+                break;
+
+            case StoryModel.Result.ResultType.GoToEnding:
+                SceneManager.LoadScene(result.changeSceneName);
                 break;
 
             default:
