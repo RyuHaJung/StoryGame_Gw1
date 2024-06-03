@@ -17,18 +17,96 @@ MonoBehaviour:
   storyLevelMax: 0
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   voice: 
-  storytype: 2
+  storytype: 0
   storyDone: 0
-  storyText: 
+  storyText: "\uC0B0\uC744 \uB118\uC5B4\uAC00\uB358 \uB2F9\uC2E0\uC758 \uBA38\uB9AC
+    \uC704\uB85C \uAC70\uB300\uD55C \uADF8\uB9BC\uC790\uAC00 \n\uC9C0\uB098\uAC14\uB2E4.
+    \uB2F9\uC2E0\uC740 \uD558\uB298 \uC704\uB97C \uBC14\uB77C\uBCF4\uC790 \n\uAF2C\uB9AC
+    \uAE43\uC774 \uB2F7 \uBC1C, \uBD80\uB9AC\uAC00 \uB2F7 \uBC1C\uC774\uB098 \uB418\uB294
+    \n\uCEE4\uB2E4\uB780 \uC0C8\uAC00 \uB2F9\uC2E0 \uC704\uB97C \uB0A0\uC544\uAC00\uACE0
+    \uC788\uC5C8\uB2E4. \n\n\uB2F9\uC2E0\uC740 \uC0C8\uB97C \uD53C\uD574 \uC870\uC2EC\uD788
+    \uC6C0\uC9C1\uC600\uC73C\uB098\n\uD558\uB298\uC5D0\uC11C \uB9F4\uB3CC\uB358 \uB2F7\uBC1C\uAD34\uBB3C\uC740
+    \uB2F9\uC2E0\uC744 \uBC1C\uACAC\uD558\uC790 \n\uB2F9\uC2E0\uC744 \uD5A5\uD574
+    \uB099\uD558\uD588\uB2E4."
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uD53C\uD55C\uB2E4"
+    buttonText: "\uD53C\uD55C\uB2E4"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
-      - resultType: 5
-        value: 0
+      - resultType: 4
+        value: 96
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 2
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult:
+      - resultType: 4
+        value: 97
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+  - optionText: "\uAF80\uB97C \uB0B8\uB2E4"
+    buttonText: "\uAF80\uB97C \uB0B8\uB2E4"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 98
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 2
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult:
+      - resultType: 4
+        value: 99
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+  - optionText: "\uACF5\uACA9\uD55C\uB2E4"
+    buttonText: "\uACF5\uACA9\uD55C\uB2E4"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 100
         stats:
           hpPoint: 0
           spPoint: 0
