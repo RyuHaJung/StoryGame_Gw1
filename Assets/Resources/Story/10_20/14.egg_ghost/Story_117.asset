@@ -19,16 +19,17 @@ MonoBehaviour:
   voice: 
   storytype: 2
   storyDone: 0
-  storyText: 
+  storyText: "\uB2F9\uC2E0\uC740 \uBB34\uAE30\uB97C \uB4E4\uACE0 \uC54C\uB4E4\uACFC
+    \uB300\uCE58\uD588\uB2E4."
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uC804\uD22C(\uB2EC\uAC40 \uADC0\uC2E0)"
+    buttonText: "\uC804\uD22C(\uB2EC\uAC40 \uADC0\uC2E0)"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
-      - resultType: 5
-        value: 0
+      - resultType: 4
+        value: 118
         stats:
           hpPoint: 0
           spPoint: 0
@@ -41,4 +42,18 @@ MonoBehaviour:
           Intelligence: 0
           wisdom: 0
           charisma: 0
-      failResult: []
+      failResult:
+      - resultType: 4
+        value: 119
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0

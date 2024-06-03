@@ -19,16 +19,17 @@ MonoBehaviour:
   voice: 
   storytype: 2
   storyDone: 0
-  storyText: 
+  storyText: "\uB2F9\uC2E0\uC740 \uC54C\uC744 \uBB34\uC2DC\uD558\uACE0 \uC9C0\uB098\uAC14\uB2E4."
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
+    buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
       - resultType: 5
         value: 0
+        changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0

@@ -34,6 +34,7 @@ MonoBehaviour:
       sucessResult:
       - resultType: 6
         value: 0
+        changeSceneName: 03.Choicestory&record Scene
         stats:
           hpPoint: 0
           spPoint: 0
