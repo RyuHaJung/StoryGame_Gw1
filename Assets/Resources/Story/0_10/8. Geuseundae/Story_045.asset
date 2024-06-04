@@ -15,14 +15,14 @@ MonoBehaviour:
   storyNumber: 45
   storyLevelMin: 0
   storyLevelMax: 10
-  MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
+  MainImage: {fileID: 2800000, guid: c690d651f8101234ab9899f964381fd9, type: 3}
   voice: 
   storytype: 0
   storyDone: 0
   storyText: "\uB2F9\uC2E0\uC740 \uAE38\uC744 \uAC77\uB2E4 \uC5B4\uB450\uC6B4 \uAE38\uBAA9\uC5D0\uC11C
     \n\uC6B8\uACE0 \uC788\uB294 \uC5B4\uB9B0 \uB0A8\uC790\uC544\uC774\uB97C \uBC1C\uACAC\uD588\uB2E4.
-    \r\n\uB0A8\uC790\uC544\uC774\uB294 \uC5B4\uB460\uC18D\uC5D0\uC11C \uB2F9\uC2E0\uC744
-    \uC9C0\uAE0B\uD788 \uBC14\uB77C\uBCF8\uB2E4."
+    \r\n\n\uB0A8\uC790\uC544\uC774\uB294 \uC5B4\uB460\uC18D\uC5D0\uC11C \uB2F9\uC2E0\uC744
+    \uC9C0\uAE0B\uD788 \n\uBC14\uB77C\uBCF4\uACE0 \uC788\uC5C8\uB2E4."
   options:
   - optionText: "\uB2E4\uAC00\uAC04\uB2E4"
     buttonText: "\uB2E4\uAC00\uAC04\uB2E4"

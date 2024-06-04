@@ -15,7 +15,7 @@ MonoBehaviour:
   storyNumber: 132
   storyLevelMin: 10
   storyLevelMax: 20
-  MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
+  MainImage: {fileID: 2800000, guid: ab4d76d931bb0de49951056dcdf4a8f2, type: 3}
   voice: 
   storytype: 2
   storyDone: 0
