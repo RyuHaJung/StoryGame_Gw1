@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Story_133
   m_EditorClassIdentifier: 
   storyNumber: 133
-  storyLevelMin: 0
-  storyLevelMax: 0
+  storyLevelMin: 10
+  storyLevelMax: 20
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   voice: 
   storytype: 2
@@ -38,7 +38,7 @@ MonoBehaviour:
           spPoint: 0
           currentHpPoint: 0
           currentSpPoint: 0
-          currentXpPoint: 2
+          currentXpPoint: 0
           strength: 0
           dexterity: 0
           consitiution: 0

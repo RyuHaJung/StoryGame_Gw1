@@ -38,16 +38,17 @@ MonoBehaviour:
       sucessResult:
       - resultType: 4
         value: 2
+        changeSceneName: 
         stats:
-          hpPoint: 1
-          spPoint: 2
-          currentHpPoint: 3
-          currentSpPoint: 4
-          currentXpPoint: 3
-          strength: 6
-          dexterity: 7
-          consitiution: 8
-          Intelligence: 9
-          wisdom: 10
-          charisma: 11
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
       failResult: []

@@ -34,12 +34,13 @@ MonoBehaviour:
       sucessResult:
       - resultType: 4
         value: 86
+        changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0
           currentHpPoint: 0
           currentSpPoint: 0
-          currentXpPoint: 2
+          currentXpPoint: 0
           strength: 0
           dexterity: 0
           consitiution: 0

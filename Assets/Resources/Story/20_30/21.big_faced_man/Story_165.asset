@@ -13,33 +13,50 @@ MonoBehaviour:
   m_Name: Story_165
   m_EditorClassIdentifier: 
   storyNumber: 165
-  storyLevelMin: 0
-  storyLevelMax: 0
+  storyLevelMin: 20
+  storyLevelMax: 30
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   voice: 
   storytype: 2
   storyDone: 0
-  storyText: 
+  storyText: "\uB2F9\uC2E0\uC740 \uC694\uAD34\uAC00 \uB2F9\uC2E0\uC744 \uACF5\uACA9\uD560
+    \uAC83 \uAC19\uB2E4\uB294 \n\uC0DD\uAC01\uC774 \uB4E4\uC5B4 \uBA3C\uC800 \uBB34\uAE30\uB97C
+    \uB4E4\uC5B4 \uACF5\uACA9\uD588\uB2E4."
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uC804\uD22C(\uACE0\uAD00\uB300\uBA74)"
+    buttonText: "\uC804\uD22C(\uACE0\uAD00\uB300\uBA74)"
     eventCheck:
       checkvalue: 0
       eventType: 0
       sucessResult:
       - resultType: 4
-        value: 0
+        value: 166
         changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0
           currentHpPoint: 0
           currentSpPoint: 0
-          currentXpPoint: 2
+          currentXpPoint: 0
           strength: 0
           dexterity: 0
           consitiution: 0
           Intelligence: 0
           wisdom: 0
           charisma: 0
-      failResult: []
+      failResult:
+      - resultType: 4
+        value: 167
+        changeSceneName: 
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0

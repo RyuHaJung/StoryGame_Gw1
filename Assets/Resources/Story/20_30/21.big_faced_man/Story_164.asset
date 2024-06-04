@@ -13,21 +13,42 @@ MonoBehaviour:
   m_Name: Story_164
   m_EditorClassIdentifier: 
   storyNumber: 164
-  storyLevelMin: 0
-  storyLevelMax: 0
+  storyLevelMin: 20
+  storyLevelMax: 30
   MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   voice: 
   storytype: 2
   storyDone: 0
-  storyText: 
+  storyText: "\uB2F9\uC2E0\uC740 \uC694\uAD34\uC758 \uC815\uCCB4\uAC00 \uACE0\uAD00\uB300\uBA74\uC774\uB77C\uB294
+    \uAC83\uC744 \n\uB208\uCE58\uCC44\uACE0 \uBB34\uC2DC\uD558\uBA70 \uD734\uC2DD\uC744
+    \uCDE8\uD588\uB2E4.\r\n\n\uACE0\uAD00\uB300\uBA74 \uB610\uD55C \uADF8\uB7F0 \uB2F9\uC2E0\uC744
+    \uBC14\uB77C\uBCF4\uB2E4\uB2C8 \n\uC774\uB0B4 \uD3B8\uC548\uD788 \uB208\uC744
+    \uAC10\uACE0 \uB098\uBB34\uC5D0 \uBA38\uB9AC\uB97C \uAE30\uB300\uBA70 \n\uD734\uC2DD\uC744
+    \uCDE8\uD558\uB354\uB2C8 \uC0AC\uB77C\uC84C\uB2E4."
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
+    buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     eventCheck:
-      checkvalue: 0
-      eventType: 0
+      checkvalue: 30
+      eventType: 8
       sucessResult:
       - resultType: 4
+        value: 75
+        changeSceneName: 
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 2
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult:
+      - resultType: 5
         value: 0
         changeSceneName: 
         stats:
@@ -42,4 +63,3 @@ MonoBehaviour:
           Intelligence: 0
           wisdom: 0
           charisma: 0
-      failResult: []

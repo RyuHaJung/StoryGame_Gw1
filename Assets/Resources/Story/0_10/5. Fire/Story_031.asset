@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Story_031
   m_EditorClassIdentifier: 
   storyNumber: 31
+  storyLevelMin: 0
+  storyLevelMax: 10
   MainImage: {fileID: 2800000, guid: 08a841263036a0a47a1abf8603a3e2ae, type: 3}
+  voice: 
   storytype: 0
   storyDone: 0
   storyText: "\uB2F9\uC2E0\uC740 \uAE38\uC744 \uAC77\uB2E4 \uACF5\uC911\uC744 \uB5A0\uB2E4\uB2C8\uB294
@@ -32,6 +35,7 @@ MonoBehaviour:
       sucessResult:
       - resultType: 4
         value: 32
+        changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0
@@ -47,6 +51,7 @@ MonoBehaviour:
       failResult:
       - resultType: 4
         value: 33
+        changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0
@@ -67,6 +72,7 @@ MonoBehaviour:
       sucessResult:
       - resultType: 4
         value: 34
+        changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0

@@ -38,6 +38,7 @@ MonoBehaviour:
       sucessResult:
       - resultType: 5
         value: 0
+        changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0
