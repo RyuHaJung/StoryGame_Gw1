@@ -15,7 +15,7 @@ MonoBehaviour:
   storyNumber: 0
   storyLevelMin: 0
   storyLevelMax: 0
-  MainImage: {fileID: 2800000, guid: 9f9d7ddb689033445ae66209480805db, type: 3}
+  MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
   voice: 
   storytype: 2
   storyDone: 0
@@ -37,6 +37,7 @@ MonoBehaviour:
       sucessResult:
       - resultType: 4
         value: 1
+        changeSceneName: 
         stats:
           hpPoint: 0
           spPoint: 0

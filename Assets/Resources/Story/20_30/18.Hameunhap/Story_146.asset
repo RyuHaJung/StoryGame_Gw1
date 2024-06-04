@@ -15,14 +15,14 @@ MonoBehaviour:
   storyNumber: 146
   storyLevelMin: 20
   storyLevelMax: 30
-  MainImage: {fileID: 2800000, guid: ef175728ad4eb594c998c20996cc6c78, type: 3}
+  MainImage: {fileID: 2800000, guid: 0918eadff44e29945882488e619ef3c6, type: 3}
   voice: 
   storytype: 2
   storyDone: 0
   storyText: "\uD568\uC744 \uC5F4\uC790 \uC791\uC740 \uC885\uC774\uC5D0 \uAE00\uADC0\uAC00
     \uC4F0\uC5EC\uC788\uC5C8\uB2E4.\r\n \r\n[\uC815\uC2E0\uC758 \uD68C\uBCF5\uC744
-    \uC6D0\uD55C\uB2E4\uBA74 \uCD08\uB85D\uC0C9 \uAE38\uC744 \uAC78\uC5B4\uAC00\uACE0\r\n\uBAB8\uC758
-    \uD68C\uBCF5\uC744 \uC6D0\uD55C\uB2E4\uBA74 \uBD89\uC740 \uAE38\uC744 \uD0DD\uD558\uB77C\r]\n\r\n\r\n\uB2F9\uC2E0\uC740
+    \uC6D0\uD55C\uB2E4\uBA74 \uC67C\uCABD \uAE38\uC744 \uAC78\uC5B4\uAC00\uACE0\r\n\uBAB8\uC758
+    \uD68C\uBCF5\uC744 \uC6D0\uD55C\uB2E4\uBA74 \uC624\uB978\uCABD \uAE38\uC744 \uD0DD\uD558\uB77C\r]\n\r\n\r\n\uB2F9\uC2E0\uC740
     \uAE00\uADC0\uB97C \uBCF4\uACE0 \uC758\uC544\uD588\uC9C0\uB9CC \uC5FC\uB450\uD574\uB450\uBA70
     \n\uAE38\uC744 \uB098\uC130\uB2E4"
   options:
