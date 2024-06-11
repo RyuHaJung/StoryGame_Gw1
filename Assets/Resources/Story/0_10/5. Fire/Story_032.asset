@@ -32,7 +32,7 @@ MonoBehaviour:
     buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     eventCheck:
       checkvalue: 10
-      eventType: 0
+      eventType: 8
       sucessResult:
       - resultType: 4
         value: 59
