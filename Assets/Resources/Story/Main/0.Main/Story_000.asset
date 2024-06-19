@@ -29,8 +29,8 @@ MonoBehaviour:
     \n\n\uC7A0\uC2DC \uBA4D\uC744 \uB54C\uB9AC\uB358 \uB2F9\uC2E0\uC740 \uD560\uC544\uBC84\uC9C0\uAC00
     \n\uB2F9\uC2E0\uC744 \uBD80\uB974\uB294 \uC18C\uB9AC\uB97C \uB4E4\uC5C8\uB2E4."
   options:
-  - optionText: "\uAC08\uAED8\uC694!"
-    buttonText: "\uAC08\uAED8\uC694!"
+  - optionText: "\uAC08\uAC8C\uC694!"
+    buttonText: "\uAC08\uAC8C\uC694!"
     eventCheck:
       checkvalue: 0
       eventType: 0
