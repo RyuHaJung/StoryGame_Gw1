@@ -47,8 +47,8 @@ MonoBehaviour:
           strength: 0
           dexterity: 0
           consitiution: 0
-          Intelligence: 0
-          wisdom: 0
+          Intelligence: 2
+          wisdom: 2
           charisma: 0
       failResult: []
   - optionText: "\uC6B0\uC0B0"

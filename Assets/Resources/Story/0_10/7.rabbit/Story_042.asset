@@ -23,7 +23,7 @@ MonoBehaviour:
     \uD480\uC744 \n\uAC74\uB124\uBA70 \uB9D0\uC744 \uAC78\uC5C8\uB2E4. \n\n\uADF8\uB7EC\uC790
     \uD1A0\uB07C\uB294 \uC790\uC2E0\uC758 \uBB3C\uAC74\uC744 \uCC3E\uC544\uC918\uC11C
     \n\uACE0\uB9D9\uB2E4\uACE0 \uC778\uC0AC\uD558\uBA70 \uB2F9\uC2E0\uC5D0\uAC8C
-    \uCCB4\uB825 \uD68C\uBCF5\uC5D0 \n\uC88B\uC740 \uC57D\uCD08\uB97C 1\uAC1C \uAC74\uB124\uC8FC\uC5C8\uB2E4."
+    \n\uC88B\uC740 \uC57D\uCD08\uB97C 1\uAC1C \uAC74\uB124\uC8FC\uC5C8\uB2E4."
   options:
   - optionText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
     buttonText: "\uBAA8\uD5D8 \uACC4\uC18D\uD558\uAE30"
@@ -43,8 +43,8 @@ MonoBehaviour:
           strength: 0
           dexterity: 0
           consitiution: 0
-          Intelligence: 0
-          wisdom: 0
+          Intelligence: 1
+          wisdom: 1
           charisma: 0
       failResult:
       - resultType: 5

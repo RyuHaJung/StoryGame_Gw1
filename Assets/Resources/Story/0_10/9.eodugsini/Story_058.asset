@@ -41,7 +41,7 @@ MonoBehaviour:
           strength: 0
           dexterity: 0
           consitiution: 0
-          Intelligence: 0
+          Intelligence: 1
           wisdom: 0
           charisma: 0
       failResult:

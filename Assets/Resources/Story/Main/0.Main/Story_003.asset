@@ -39,8 +39,8 @@ MonoBehaviour:
         value: 4
         changeSceneName: 
         stats:
-          hpPoint: 0
-          spPoint: 0
+          hpPoint: 1
+          spPoint: 1
           currentHpPoint: 0
           currentSpPoint: 0
           currentXpPoint: 0

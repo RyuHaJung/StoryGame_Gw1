@@ -44,10 +44,10 @@ MonoBehaviour:
           currentHpPoint: 5
           currentSpPoint: 5
           currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
+          strength: 5
+          dexterity: 6
+          consitiution: 7
+          Intelligence: 5
+          wisdom: 8
+          charisma: 9
       failResult: []
