@@ -40,7 +40,7 @@ MonoBehaviour:
           hpPoint: 0
           spPoint: 0
           currentHpPoint: 0
-          currentSpPoint: 0
+          currentSpPoint: 1
           currentXpPoint: 2
           strength: 0
           dexterity: 0

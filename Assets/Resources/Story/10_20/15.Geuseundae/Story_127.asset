@@ -41,7 +41,7 @@ MonoBehaviour:
           currentXpPoint: 2
           strength: 0
           dexterity: 0
-          consitiution: 0
+          consitiution: 1
           Intelligence: 0
           wisdom: 0
           charisma: 0

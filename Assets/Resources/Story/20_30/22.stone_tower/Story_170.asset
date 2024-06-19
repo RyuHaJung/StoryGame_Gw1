@@ -42,7 +42,7 @@ MonoBehaviour:
           currentHpPoint: 0
           currentSpPoint: 0
           currentXpPoint: 2
-          strength: 0
+          strength: 1
           dexterity: 0
           consitiution: 0
           Intelligence: 0

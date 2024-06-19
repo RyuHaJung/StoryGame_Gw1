@@ -38,7 +38,7 @@ MonoBehaviour:
         stats:
           hpPoint: 0
           spPoint: 0
-          currentHpPoint: 0
+          currentHpPoint: 1
           currentSpPoint: 0
           currentXpPoint: 2
           strength: 0

@@ -44,7 +44,7 @@ MonoBehaviour:
           consitiution: 0
           Intelligence: 0
           wisdom: 0
-          charisma: 0
+          charisma: 1
       failResult:
       - resultType: 5
         value: 0
